@@ -1,14 +1,12 @@
-package com.example.demo.notification;
+package com.model;
 
 
 import lombok.Getter;
 import lombok.Setter;
 
-import java.io.Serializable;
-
 @Getter
 @Setter
-public class Notification implements Serializable {
+public class Notification {
 
     private String email;
 
